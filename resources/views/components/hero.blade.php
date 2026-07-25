@@ -1,4 +1,4 @@
-<section class="relative pt-32 pb-20 lg:pt-40 lg:pb-28 overflow-hidden bg-gradient-to-b from-rose-50/60 via-slate-50 to-slate-50">
+<section class="relative pt-24 pb-16 lg:pt-32 lg:pb-20 overflow-hidden bg-gradient-to-b from-rose-50/60 via-slate-50 to-slate-50">
     <!-- Decorative Ambient Glow Backgrounds -->
     <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-tr from-rose-200/40 to-amber-200/40 rounded-full blur-3xl -z-10 pointer-events-none"></div>
     <div class="absolute top-12 right-10 w-72 h-72 bg-rose-300/20 rounded-full blur-2xl -z-10 pointer-events-none"></div>
@@ -11,8 +11,7 @@
                 
                 <!-- Pill Badge -->
                 <div class="inline-flex items-center space-x-2 bg-gradient-to-r from-rose-100 to-amber-100 border border-rose-200/80 px-4 py-1.5 rounded-full text-rose-800 text-xs sm:text-sm font-semibold shadow-sm">
-                    <span class="flex h-2 w-2 rounded-full bg-rose-600 animate-ping"></span>
-                    <span>✨ Platform Undangan Digital #1 Kekinian & Praktis</span>
+                    <span>Jasa Pembuatan Undangan Digital Elegan</span>
                 </div>
 
                 <!-- Main Heading -->
@@ -21,17 +20,17 @@
                 </h1>
 
                 <!-- Subtitle Paragraph -->
-                <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-                    Buat website undangan pernikahan mewah siap pakai dalam <strong class="text-slate-800">5 menit</strong>. Dilengkapi RSVP realtime, musik favorit, amplop QRIS digital, lokasi Google Maps, dan nama tamu khusus tanpa batas.
+                <p class="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                    Buat website undangan pernikahan elegan dengan mudah dan praktis. Dilengkapi fitur RSVP realtime, musik latar, amplop digital QRIS, navigasi lokasi Google Maps, dan nama tamu khusus tanpa batas.
                 </p>
 
                 <!-- CTA Actions -->
                 <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4">
                     <a href="#harga" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded-full bg-gradient-to-r from-rose-600 via-rose-500 to-amber-600 text-white font-bold text-base shadow-xl shadow-rose-500/30 hover:shadow-2xl hover:shadow-rose-500/40 hover:scale-[1.02] transition-all duration-200">
-                        🚀 Buat Undangan Sekarang
+                        Buat Undangan Sekarang
                     </a>
                     <a href="#katalog" class="w-full sm:w-auto inline-flex items-center justify-center px-7 py-4 rounded-full bg-white text-slate-700 hover:text-rose-600 font-bold text-base border border-slate-200 hover:border-rose-300 shadow-sm hover:shadow-md transition-all">
-                        👀 Lihat Contoh Demo
+                        Lihat Contoh Demo
                     </a>
                 </div>
 
@@ -47,25 +46,12 @@
                     </div>
                     <div class="flex items-center justify-center lg:justify-start space-x-2">
                         <span class="text-emerald-500 font-bold">✓</span>
-                        <span>Garansi Revisi Sepuasnya</span>
+                        <span>Desain Premium & Responsif</span>
                     </div>
                 </div>
 
                 <!-- Social Proof Stats -->
-                <div class="pt-6 border-t border-slate-200/80 grid grid-cols-3 gap-4 text-center lg:text-left">
-                    <div>
-                        <p class="font-serif font-bold text-2xl sm:text-3xl text-slate-900">12.500+</p>
-                        <p class="text-xs text-slate-500 font-medium">Pasangan Bahagia</p>
-                    </div>
-                    <div>
-                        <p class="font-serif font-bold text-2xl sm:text-3xl text-slate-900">60+</p>
-                        <p class="text-xs text-slate-500 font-medium">Desain Premium</p>
-                    </div>
-                    <div>
-                        <p class="font-serif font-bold text-2xl sm:text-3xl text-slate-900">4.9/5 ★</p>
-                        <p class="text-xs text-slate-500 font-medium">Rating Kepuasan</p>
-                    </div>
-                </div>
+                <!-- Bagian stats disembunyikan sementara agar terlihat lebih realistis -->
 
             </div>
 

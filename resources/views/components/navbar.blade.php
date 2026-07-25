@@ -7,12 +7,10 @@
             
             <!-- Brand Logo -->
             <a href="#" class="flex items-center space-x-2.5 group">
-                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-rose-500 to-amber-500 flex items-center justify-center shadow-md shadow-rose-500/20 group-hover:scale-105 transition-transform">
-                    <span class="text-xl">💍</span>
-                </div>
+                <!-- Nanti icon custom diletakkan di sini -->
                 <div class="flex flex-col">
                     <span class="font-serif font-bold text-2xl tracking-tight text-slate-900 group-hover:text-rose-600 transition-colors">
-                        Awedding<span class="text-rose-500">.id</span>
+                        Awedding
                     </span>
                     <span class="text-[10px] uppercase font-bold tracking-widest text-amber-600 -mt-1">Digital Invitation</span>
                 </div>

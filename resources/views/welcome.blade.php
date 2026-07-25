@@ -1,4 +1,4 @@
-<x-app-layout>
+<x-layouts.app>
     <!-- Hero Section -->
     @include('components.hero')
 
@@ -16,4 +16,4 @@
 
     <!-- FAQ Section -->
     @include('components.faq')
-</x-app-layout>
+</x-layouts.app>
