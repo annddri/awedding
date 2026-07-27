@@ -10,13 +10,14 @@
     --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
     --font-serif: 'Playfair Display', Georgia, serif;
 
-    --color-rose-50: #fdf2f4;
-    --color-rose-100: #fde6ea;
-    --color-rose-500: #e11d48;
-    --color-rose-600: #e11d48;
-    --color-rose-700: #be123c;
-    --color-rose-900: #881337;
+    --color-cream: #FDFBF7;
+    --color-cream-dark: #F4EFE6;
+    
+    --color-navy: #1B2A4A;
+    --color-navy-light: #2A3F6C;
+    --color-navy-dark: #111A2E;
 
+    /* Aksen emas tetap dipertahankan */
     --color-amber-gold: #d4af37;
     --color-champagne: #f7e7ce;
 }
@@ -37,7 +38,7 @@
     }
 
     .gold-gradient-text {
-        background: linear-gradient(135deg, #d4af37 0%, #f7e7ce 50%, #b8860b 100%);
+        background: linear-gradient(135deg, #d4af37 0%, #c59e2a 50%, #b8860b 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }

@@ -1,12 +1,12 @@
-<section id="faq" x-data="{ activeFaq: 1 }" class="py-20 lg:py-28 bg-slate-50 border-t border-slate-200/80">
+<section id="faq" x-data="{ activeFaq: 1 }" class="py-20 lg:py-28 bg-cream-dark border-t border-slate-200/80">
     <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <!-- Header -->
         <div class="text-center space-y-4">
-            <span class="text-xs uppercase font-bold tracking-widest text-rose-600 bg-rose-50 px-3 py-1 rounded-full border border-rose-200">
+            <span class="text-xs uppercase font-bold tracking-widest text-navy bg-cream px-3 py-1 rounded-full border border-navy/20">
                 Informasi & Pertanyaan
             </span>
-            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-slate-900">
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-navy">
                 Sering Ditanyakan (<span class="gold-gradient-text">FAQ</span>)
             </h2>
             <p class="text-slate-600 text-sm sm:text-base">
@@ -22,7 +22,7 @@
                 <button @click="activeFaq = (activeFaq === 1 ? null : 1)" 
                         class="w-full p-6 text-left font-bold text-base sm:text-lg text-slate-900 flex justify-between items-center space-x-4">
                     <span>Berapa lama proses pembuatan undangan digital sampai siap disebar?</span>
-                    <span class="text-rose-600 transition-transform duration-200 text-xl" :class="activeFaq === 1 ? 'rotate-180' : ''">
+                    <span class="text-navy-light transition-transform duration-200 text-xl" :class="activeFaq === 1 ? 'rotate-180' : ''">
                         ↓
                     </span>
                 </button>
@@ -36,7 +36,7 @@
                 <button @click="activeFaq = (activeFaq === 2 ? null : 2)" 
                         class="w-full p-6 text-left font-bold text-base sm:text-lg text-slate-900 flex justify-between items-center space-x-4">
                     <span>Apakah nama tamu undangan bisa dibuat tanpa batas?</span>
-                    <span class="text-rose-600 transition-transform duration-200 text-xl" :class="activeFaq === 2 ? 'rotate-180' : ''">
+                    <span class="text-navy-light transition-transform duration-200 text-xl" :class="activeFaq === 2 ? 'rotate-180' : ''">
                         ↓
                     </span>
                 </button>
@@ -50,7 +50,7 @@
                 <button @click="activeFaq = (activeFaq === 3 ? null : 3)" 
                         class="w-full p-6 text-left font-bold text-base sm:text-lg text-slate-900 flex justify-between items-center space-x-4">
                     <span>Bagaimana cara kerja fitur Amplop Digital & QRIS?</span>
-                    <span class="text-rose-600 transition-transform duration-200 text-xl" :class="activeFaq === 3 ? 'rotate-180' : ''">
+                    <span class="text-navy-light transition-transform duration-200 text-xl" :class="activeFaq === 3 ? 'rotate-180' : ''">
                         ↓
                     </span>
                 </button>
@@ -64,7 +64,7 @@
                 <button @click="activeFaq = (activeFaq === 4 ? null : 4)" 
                         class="w-full p-6 text-left font-bold text-base sm:text-lg text-slate-900 flex justify-between items-center space-x-4">
                     <span>Apakah bisa memakai lagu atau musik favorit sendiri?</span>
-                    <span class="text-rose-600 transition-transform duration-200 text-xl" :class="activeFaq === 4 ? 'rotate-180' : ''">
+                    <span class="text-navy-light transition-transform duration-200 text-xl" :class="activeFaq === 4 ? 'rotate-180' : ''">
                         ↓
                     </span>
                 </button>
@@ -78,12 +78,13 @@
                 <button @click="activeFaq = (activeFaq === 5 ? null : 5)" 
                         class="w-full p-6 text-left font-bold text-base sm:text-lg text-slate-900 flex justify-between items-center space-x-4">
                     <span>Bagaimana jika ada perubahan jadwal atau lokasi acara di kemudian hari?</span>
-                    <span class="text-rose-600 transition-transform duration-200 text-xl" :class="activeFaq === 5 ? 'rotate-180' : ''">
+                    <span class="text-navy-light transition-transform duration-200 text-xl" :class="activeFaq === 5 ? 'rotate-180' : ''">
                         ↓
                     </span>
                 </button>
                 <div x-show="activeFaq === 5" x-collapse x-cloak class="px-6 pb-6 text-slate-600 text-sm leading-relaxed border-t border-slate-100 pt-4">
-                    Anda dapat melakukan edit data kapan saja hingga hari H tanpa dikenakan biaya tambahan. Garansi revisi sepuasnya!
+                    Anda dapat melakukan revisi data kapan saja hingga H-3 acara tanpa dikenakan biaya tambahan. <br><br>
+                    <em>*Khusus paket dengan layanan input admin, permintaan revisi akan diproses sesuai jam kerja operasional.</em>
                 </div>
             </div>
 

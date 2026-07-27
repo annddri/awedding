@@ -1,7 +1,7 @@
-<section id="testimoni" class="py-20 lg:py-28 bg-slate-900 text-white relative overflow-hidden">
+<section id="testimoni" class="py-20 lg:py-28 bg-navy-dark text-white relative overflow-hidden">
     
     <!-- Background Decor -->
-    <div class="absolute -top-40 -right-40 w-96 h-96 bg-rose-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -top-40 -right-40 w-96 h-96 bg-navy-light/20 rounded-full blur-3xl pointer-events-none"></div>
     <div class="absolute -bottom-40 -left-40 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -23,7 +23,7 @@
         <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
             
             <!-- Review 1 -->
-            <div class="bg-slate-800/80 backdrop-blur-md p-7 rounded-3xl border border-slate-700/80 flex flex-col justify-between space-y-6 hover:border-amber-500/50 transition-colors">
+            <div class="bg-navy/80 backdrop-blur-md p-7 rounded-3xl border border-navy-light/50 flex flex-col justify-between space-y-6 hover:border-amber-500/50 transition-colors">
                 <div class="space-y-4">
                     <div class="flex text-amber-400 space-x-1 text-sm">
                         ★★★★★
@@ -32,8 +32,8 @@
                         "Tamu-tamu pada puji undangannya mewah banget! Musik latar pas buka undangan langsung bikin terharu. Admin Awedding juga ramah dan cepat banget pas bantu revisi jam acara."
                     </p>
                 </div>
-                <div class="flex items-center space-x-4 pt-4 border-t border-slate-700/50">
-                    <div class="w-11 h-11 rounded-full bg-rose-500 flex items-center justify-center font-bold text-white shadow">
+                <div class="flex items-center space-x-4 pt-4 border-t border-navy-light/50">
+                    <div class="w-11 h-11 rounded-full bg-navy-light flex items-center justify-center font-bold text-white shadow">
                         R&D
                     </div>
                     <div>
@@ -44,7 +44,7 @@
             </div>
 
             <!-- Review 2 -->
-            <div class="bg-slate-800/80 backdrop-blur-md p-7 rounded-3xl border border-slate-700/80 flex flex-col justify-between space-y-6 hover:border-amber-500/50 transition-colors">
+            <div class="bg-navy/80 backdrop-blur-md p-7 rounded-3xl border border-navy-light/50 flex flex-col justify-between space-y-6 hover:border-amber-500/50 transition-colors">
                 <div class="space-y-4">
                     <div class="flex text-amber-400 space-x-1 text-sm">
                         ★★★★★
@@ -53,7 +53,7 @@
                         "Fitur custom nama tamunya membantu banget. Tinggal sebar link WA otomatis beres dalam sekejap. Hadiah amplop QRIS-nya juga langsung masuk ke rekening pribadi!"
                     </p>
                 </div>
-                <div class="flex items-center space-x-4 pt-4 border-t border-slate-700/50">
+                <div class="flex items-center space-x-4 pt-4 border-t border-navy-light/50">
                     <div class="w-11 h-11 rounded-full bg-amber-500 flex items-center justify-center font-bold text-white shadow">
                         D&F
                     </div>
@@ -65,7 +65,7 @@
             </div>
 
             <!-- Review 3 -->
-            <div class="bg-slate-800/80 backdrop-blur-md p-7 rounded-3xl border border-slate-700/80 flex flex-col justify-between space-y-6 hover:border-amber-500/50 transition-colors">
+            <div class="bg-navy/80 backdrop-blur-md p-7 rounded-3xl border border-navy-light/50 flex flex-col justify-between space-y-6 hover:border-amber-500/50 transition-colors">
                 <div class="space-y-4">
                     <div class="flex text-amber-400 space-x-1 text-sm">
                         ★★★★★
@@ -74,7 +74,7 @@
                         "Harganya sangat terjangkau dibanding cetak fisik kertas yang berakhir dibuang. Teman-teman di luar kota senang bisa kirim ucapan doa restu secara online."
                     </p>
                 </div>
-                <div class="flex items-center space-x-4 pt-4 border-t border-slate-700/50">
+                <div class="flex items-center space-x-4 pt-4 border-t border-navy-light/50">
                     <div class="w-11 h-11 rounded-full bg-emerald-500 flex items-center justify-center font-bold text-white shadow">
                         B&S
                     </div>

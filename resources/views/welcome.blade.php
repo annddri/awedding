@@ -12,7 +12,7 @@
     @include('components.pricing')
 
     <!-- Testimonials Section -->
-    @include('components.testimonials')
+    {{-- @include('components.testimonials') --}}
 
     <!-- FAQ Section -->
     @include('components.faq')

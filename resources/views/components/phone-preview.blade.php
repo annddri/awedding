@@ -1,5 +1,5 @@
 <!-- Interactive Mobile Phone Preview Frame -->
-<div x-data="{ activeTab: 'home', musicPlaying: true }" class="relative mx-auto w-full max-w-[320px] sm:max-w-[360px] aspect-[9/18.5] bg-slate-900 rounded-[48px] p-3 shadow-2xl shadow-rose-950/20 border-4 border-slate-800 ring-1 ring-slate-900/5 transition-transform hover:scale-[1.01] duration-300">
+<div x-data="{ activeTab: 'home', musicPlaying: true }" class="relative mx-auto w-full max-w-[260px] sm:max-w-[280px] aspect-[9/18.5] bg-slate-900 rounded-[40px] p-2.5 shadow-2xl shadow-navy-dark/40 border-[3px] border-slate-800 ring-1 ring-slate-900/5 transition-transform hover:scale-[1.01] duration-300">
     
     <!-- Phone Top Notch / Dynamic Island -->
     <div class="absolute top-5 left-1/2 -translate-x-1/2 w-28 h-5 bg-slate-900 rounded-full z-30 flex items-center justify-center space-x-2">
@@ -17,9 +17,9 @@
             <!-- Music Player Pill Floating Top Right -->
             <button @click="musicPlaying = !musicPlaying" class="absolute top-9 right-4 bg-white/20 backdrop-blur-md px-3 py-1 rounded-full text-[11px] font-medium flex items-center space-x-1.5 border border-white/30 z-20">
                 <span x-show="musicPlaying" class="flex space-x-0.5 items-end h-3">
-                    <span class="w-0.5 h-3 bg-rose-400 animate-bounce"></span>
+                    <span class="w-0.5 h-3 bg-navy-light animate-bounce"></span>
                     <span class="w-0.5 h-2 bg-amber-300 animate-bounce delay-75"></span>
-                    <span class="w-0.5 h-3.5 bg-rose-300 animate-bounce delay-150"></span>
+                    <span class="w-0.5 h-3.5 bg-navy animate-bounce delay-150"></span>
                 </span>
                 <span x-show="!musicPlaying" class="text-stone-300">🎵 Off</span>
                 <span x-show="musicPlaying">Perfect - Ed Sheeran</span>
@@ -64,7 +64,7 @@
 
             <!-- Quick Action Interactive Buttons -->
             <div class="space-y-2 pt-1">
-                <button class="w-full py-2 rounded-xl bg-gradient-to-r from-rose-600 to-amber-600 text-white font-semibold text-xs shadow-lg shadow-rose-900/40 hover:opacity-95">
+                <button class="w-full py-2 rounded-xl bg-gradient-to-r from-navy to-navy-light text-white font-semibold text-xs shadow-lg shadow-navy-dark/50 hover:opacity-95">
                     💌 Buka Undangan Digital
                 </button>
                 <div class="grid grid-cols-2 gap-2 text-[10px]">
@@ -80,7 +80,7 @@
 
         <!-- Phone Bottom Navigation Simulation -->
         <div class="h-10 bg-stone-950 border-t border-stone-800 flex items-center justify-around text-stone-400 text-[10px]">
-            <span class="text-rose-400 font-bold flex flex-col items-center">🏠 Home</span>
+            <span class="text-amber-300 font-bold flex flex-col items-center">🏠 Home</span>
             <span class="flex flex-col items-center">📍 Lokasi</span>
             <span class="flex flex-col items-center">📷 Galeri</span>
             <span class="flex flex-col items-center">💬 RSVP</span>
